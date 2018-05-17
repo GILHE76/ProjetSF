@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Formulaire de mariage!{% endblock %}
+
+{% block body %}
+    {{ form_start(formulaire) }}
+    {{ form_widget(formulaire) }}
+    {{ form_end(formulaire) }}
+{% endblock %}
